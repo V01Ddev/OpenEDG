@@ -1,9 +1,10 @@
 year = int(input("Enter a year: "))
 
-output = "Common year"
 
 l = "Leap year"
 c = "Common year"
+
+output = l
 
 if year > 1582:
     if (year%4)!=0:
