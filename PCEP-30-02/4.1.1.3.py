@@ -1,8 +1,8 @@
 
-get val():
+def get_val():
     print("Enter a value: ")
-    return in = int(input())
+    return int(input())
 
-a = val()
-b = val()
-c = val()
+a = get_val()
+b = get_val()
+c = get_val()
